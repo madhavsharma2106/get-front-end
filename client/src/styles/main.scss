@@ -1,0 +1,11 @@
+@import "./mixins.scss";
+@import "./colors.scss";
+body {
+  margin: auto;
+  width: 1170px;
+}
+
+a {
+  color: $primary-blue;
+  text-decoration: none;
+}
