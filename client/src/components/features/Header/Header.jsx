@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss";
+import "./Header.scss";
 import Button, { ButtonVariant } from "../../atoms/Button/Button";
 import { Link } from "react-router-dom";
 

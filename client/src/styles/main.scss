@@ -1,8 +1,12 @@
 @import "./mixins.scss";
 @import "./colors.scss";
+@import "./fonts.scss";
+
 body {
+  font-family: $lato-regular;
   margin: auto;
   width: 1170px;
+  font-size: $size-2;
 }
 
 a {

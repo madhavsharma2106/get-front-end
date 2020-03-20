@@ -1,0 +1,30 @@
+@import "../../../styles/main.scss";
+
+.hero-text-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .text-area {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 20%;
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      .cta {
+        margin-top: 10px;
+      }
+    }
+    button {
+      margin-right: 30px;
+    }
+
+    h1 {
+      font-family: $work-sans-extra-bold;
+      font-size: 31px;
+      margin: 0;
+      line-height: 37px;
+    }
+  }
+}

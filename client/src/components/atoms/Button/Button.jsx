@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 
-import "./styles.scss";
+import "./Button.scss";
 
 export const ButtonVariant = {
   contained: "contained",
@@ -10,7 +10,7 @@ export const ButtonVariant = {
 };
 
 const Button = props => {
-  const { variant, onClick } = props;
+  const { variant = ButtonVariant.contained, onClick } = props;
 
   const classes = classNames([`btn-${variant}`, "btn"]);
 
