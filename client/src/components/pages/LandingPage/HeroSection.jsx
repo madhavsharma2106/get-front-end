@@ -12,7 +12,7 @@ function HeroSection() {
         <div className="wrapper">
           <div>
             <h1>Become a Front End Champ</h1>
-            <Text variant={TextVariant.latoLight}>
+            <Text variant={TextVariant.subHeadingText}>
               Your one-stop to learn all things Front End. <br />
               Gain in-depth knowledge on modern frameworks.
             </Text>

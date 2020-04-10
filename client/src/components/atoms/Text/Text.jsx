@@ -8,17 +8,27 @@ export const TextVariant = {
   subText: "subtext",
   regular: "regular",
   sectionHeading: "section-heading",
-  boldHeading: "bold-heading"
+  boldHeading: "bold-heading",
+  title: "title",
+  subTitle: "sub-title",
 };
 
 export const Alignment = {
   left: "left",
   right: "right",
-  center: "center"
+  center: "center",
 };
 
-function Text({ variant, children, alginment = Alignment.left }) {
-  const classes = classNames([`text-${variant}`, `text-${alginment}`]);
+export const DisplayVariant = {
+  inline: "inline",
+};
+
+function Text({ variant = TextVariant.regular, children, display, alginment }) {
+  const classes = classNames([
+    `text-${variant}`,
+    alginment && `text-${alginment}`,
+    display && `text-${display}`,
+  ]);
 
   return <p className={classes}>{children}</p>;
 }

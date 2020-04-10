@@ -2,7 +2,7 @@
 
 .btn-contained {
   background-color: $primary-blue;
-  border: 2px solid $primary-blue;
+  border: 1px solid $primary-blue;
   color: white;
   &:hover {
     color: $primary-blue;
@@ -12,7 +12,7 @@
 
 .btn-outlined {
   background-color: $white;
-  border: 2px solid $primary-blue;
+  border: 1px solid $primary-blue;
   color: $primary-blue;
 
   &:hover {
@@ -25,11 +25,11 @@
   background-color: $white;
   border: none;
   color: $primary-blue;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
 
   &:hover {
     color: $primary-blue;
-    border: 2px solid $primary-blue;
+    border: 1px solid $primary-blue;
   }
 }
 

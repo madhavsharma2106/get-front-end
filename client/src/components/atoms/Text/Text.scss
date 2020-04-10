@@ -6,6 +6,10 @@
   line-height: 20px;
 }
 
+.text-inline {
+  display: inline;
+}
+
 .text-section-heading {
   font-family: $work-sans-semi-bold;
   font-size: $size-5;
@@ -26,4 +30,24 @@
 }
 .text-center {
   text-align: center;
+}
+
+.text-title {
+  font-family: $lato-bold;
+  font-size: $size-2;
+}
+
+.text-sub-title {
+  font-family: $lato-italic;
+  font-size: $size-1;
+  color: $primary-green;
+  font-style: italic;
+  margin: 0;
+}
+
+.text-regular {
+  font-family: $lato-regular;
+  font-size: $size-1;
+  color: $light-grey;
+  line-height: 1.5;
 }
