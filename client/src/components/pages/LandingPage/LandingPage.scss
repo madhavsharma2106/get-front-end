@@ -22,9 +22,34 @@
 
     h1 {
       font-family: $work-sans-extra-bold;
-      font-size: 31px;
+      font-size: $size-6;
+      color: $dark-grey;
       margin: 0;
       line-height: 37px;
     }
+  }
+}
+
+.language-section {
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+
+  .languages {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+
+    img {
+      height: 100px;
+    }
+  }
+}
+.courses-section {
+  margin-top: 50px;
+
+  .courses {
+    display: flex;
+    justify-content: space-evenly;
   }
 }

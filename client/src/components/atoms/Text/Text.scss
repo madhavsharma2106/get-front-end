@@ -1,5 +1,29 @@
 @import "../../../styles/main.scss";
-.text-lato-light {
+.text-sub-heading-text {
   font-family: $lato-light;
   font-size: $size-3;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+
+.text-section-heading {
+  font-family: $work-sans-semi-bold;
+  font-size: $size-5;
+  color: $dark-grey;
+}
+
+.text-bold-heading {
+  font-family: $lato-bold;
+  font-size: $size-6;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
 }

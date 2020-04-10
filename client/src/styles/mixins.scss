@@ -10,3 +10,9 @@
   -o-transition: all 0.1s ease;
   transition: all 0.1s ease;
 }
+
+@mixin box-shadow {
+  -webkit-box-shadow: 3px 1px 9px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 1px 9px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 1px 9px 0px rgba(0, 0, 0, 0.75);
+}

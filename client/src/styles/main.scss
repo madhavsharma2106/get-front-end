@@ -2,6 +2,10 @@
 @import "./colors.scss";
 @import "./fonts.scss";
 
+html {
+  box-sizing: border-box;
+}
+
 body {
   font-family: $lato-regular;
   margin: auto;
@@ -12,4 +16,8 @@ body {
 a {
   color: $primary-blue;
   text-decoration: none;
+}
+
+.primary-blue {
+  color: $primary-blue;
 }

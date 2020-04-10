@@ -1,0 +1,6 @@
+@import "../../../styles/main.scss";
+
+.card {
+  @include border-radius;
+  @include box-shadow;
+}
