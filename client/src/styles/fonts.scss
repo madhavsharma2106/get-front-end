@@ -9,7 +9,8 @@
 @font-face {
   font-family: "Work Sans";
   src: url(../assets/fonts/WorkSans-ExtraBold.otf) format("opentype") extra-bold,
-    url(../assets/fonts/WorkSans-SemiBold.ttf) format("truetype") semi-bold;
+    url(../assets/fonts/WorkSans-SemiBold.ttf) format("truetype") semi-bold,
+    url(../assets/fonts/WorkSans-Regular.ttf) format("truetype") regular;
 }
 
 $lato-regular: "lato", regular;
@@ -18,6 +19,7 @@ $lato-light: "lato", light;
 $lato-italic: "lato", italic;
 $work-sans-extra-bold: "Work Sans", extra-bold;
 $work-sans-semi-bold: "Work Sans", semi-bold;
+$work-sans-regular: "Work Sans", regular;
 
 $size-1: 12px;
 $size-2: 14px;

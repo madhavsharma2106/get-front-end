@@ -35,6 +35,7 @@
 .text-title {
   font-family: $lato-bold;
   font-size: $size-2;
+  font-weight: bold;
 }
 
 .text-sub-title {
@@ -50,4 +51,21 @@
   font-size: $size-1;
   color: $light-grey;
   line-height: 1.5;
+}
+
+.text-highlight {
+  font-size: $size-6;
+  font-family: $work-sans-regular;
+  color: $primary-green;
+}
+
+.text-subtext {
+  font-size: $size-1;
+  font-family: $lato-italic;
+  color: $light-grey;
+  font-style: italic;
+}
+
+.text-no-margin {
+  margin: 0;
 }

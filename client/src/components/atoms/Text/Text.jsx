@@ -11,6 +11,7 @@ export const TextVariant = {
   boldHeading: "bold-heading",
   title: "title",
   subTitle: "sub-title",
+  highlight: "highlight",
 };
 
 export const Alignment = {
@@ -21,16 +22,27 @@ export const Alignment = {
 
 export const DisplayVariant = {
   inline: "inline",
+  noMargin: "no-margin",
 };
 
-function Text({ variant = TextVariant.regular, children, display, alginment }) {
+function Text({
+  variant = TextVariant.regular,
+  children,
+  display,
+  alginment,
+  style,
+}) {
   const classes = classNames([
     `text-${variant}`,
     alginment && `text-${alginment}`,
     display && `text-${display}`,
   ]);
 
-  return <p className={classes}>{children}</p>;
+  return (
+    <p style={style} className={classes}>
+      {children}
+    </p>
+  );
 }
 
 export default Text;
