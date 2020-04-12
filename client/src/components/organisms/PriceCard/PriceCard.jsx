@@ -14,8 +14,15 @@ function PriceCard() {
       <Text variant={TextVariant.regular} display={DisplayVariant.noMargin}>
         All Courses
       </Text>
-      <Text variant={TextVariant.highlight}>INR 999/-</Text>
-      <Button variant={ButtonVariant.contained}>Choose</Button>
+      <Text variant={TextVariant.highlight} style={{ margin: "2.5rem 0" }}>
+        INR 999/-
+      </Text>
+      <Button
+        variant={ButtonVariant.contained}
+        style={{ marginBottom: "0.5rem" }}
+      >
+        Choose
+      </Button>
       <Text variant={TextVariant.subText} display={DisplayVariant.noMargin}>
         30 Days money back gaurantee
       </Text>

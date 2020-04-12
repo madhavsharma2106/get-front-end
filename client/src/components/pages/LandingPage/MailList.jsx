@@ -5,7 +5,7 @@ import TextInput from "../../molecules/TextInput/TextInput";
 
 function MailList() {
   return (
-    <div className="footer-section">
+    <div className="mail-list-section">
       <Text variant={TextVariant.regular}>
         Get Access to an exclusive weekly email about all things Front End
       </Text>

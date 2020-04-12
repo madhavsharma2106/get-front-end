@@ -6,16 +6,16 @@ import "./Button.scss";
 export const ButtonVariant = {
   contained: "contained",
   text: "text",
-  outlined: "outlined"
+  outlined: "outlined",
 };
 
-const Button = props => {
-  const { variant = ButtonVariant.contained, onClick } = props;
+const Button = (props) => {
+  const { variant = ButtonVariant.contained, onClick, style } = props;
 
   const classes = classNames([`btn-${variant}`, "btn"]);
 
   return (
-    <button onClick={onClick} className={classes}>
+    <button onClick={onClick} className={classes} style={style}>
       {props.children}
     </button>
   );

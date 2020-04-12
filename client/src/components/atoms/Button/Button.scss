@@ -34,9 +34,9 @@
 }
 
 .btn {
-  font-size: 14px;
+  font-size: $size-2;
   font-family: $lato-bold;
-  padding: 5px 16px 5px 16px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   cursor: pointer;
   font-weight: bold;
   @include border-radius;
