@@ -3,6 +3,7 @@ import Header from "../../features/Header/Header";
 import HeroSection from "./HeroSection";
 import LanguagesSection from "./LanguagesSection";
 import CoursesSection from "./CoursesSection";
+import PricesSection from "./PricesSection";
 
 function LandingPage() {
   return (
@@ -11,6 +12,7 @@ function LandingPage() {
       <HeroSection />
       <LanguagesSection />
       <CoursesSection />
+      <PricesSection />
     </>
   );
 }
