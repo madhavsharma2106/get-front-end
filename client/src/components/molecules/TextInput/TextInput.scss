@@ -1,0 +1,14 @@
+@import "../../../styles/main.scss";
+
+.text-input {
+  padding: 5px 10px;
+  font-family: $lato-regular;
+  font-size: $size-1;
+  color: $light-grey;
+  &::placeholder {
+    font-size: $size-1;
+    font-family: $lato-italic;
+    color: $light-grey;
+    font-style: italic;
+  }
+}
